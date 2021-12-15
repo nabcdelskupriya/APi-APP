@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:id="@+id/idEt"
+        android:enabled="false"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/nameEt"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:hint="age"
+    android:id="@+id/ageEt"
+    android:textColor="@android:color/black"
+    />
+
+    <EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:hint="gender"
+    android:id="@+id/genderEt"
+    android:textColor="@android:color/black"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/btn_update"
+        android:layout_marginTop="10dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pb"/>
+
+</LinearLayout>
